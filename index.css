@@ -1,0 +1,55 @@
+body {
+	background-color: lightgrey;
+}
+.container{
+margin-top: 8%;
+width: 100%;
+}
+.main{
+	margin: 0 auto;
+	/*background-color: lightgrey;*/
+}
+.fa-times{
+	padding: 5px;
+float: right;
+color: red;
+opacity: 0.5;
+}
+.fa-times:hover{
+	opacity: 1;
+}
+.fa-check{
+	padding: 5px;
+ float: left;
+ color: green;
+ opacity: 0.5;
+}
+.fa-check{
+	opacity: 1;
+}
+
+.text-left{
+	
+}
+
+.todo{
+	margin-top: 5px;
+	background-color: lightblue;
+	padding: 0.5em;
+}
+.add-btn{
+	float: right;
+}
+#change{
+	white-space: break-spaces;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .add-btn{
+  	margin-right: 0;
+  	width: 100%;
+
+  }
+}
